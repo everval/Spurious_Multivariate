@@ -36,7 +36,7 @@ d3 = 0.1
 iT = 10^2
 
 vmus = rep(0,3)
-Msigma = matrix(c(1,0,0, 0,0.75, 0, 0, 0, 0.4),3,3)
+Msigma = matrix(c(1,0,0, 0,0.75, 0, 0, 0, 0.4),3,3) ##### Variance of multivariate noise processes
 
 fts = rep(0,iR)
 r2s = rep(0,iR)
