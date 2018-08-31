@@ -36,7 +36,7 @@ d3 = 0.1
 iT = 10^2
 
 vmus = rep(0,3)
-Msigma = matrix(c(0.5,0,0, 0,0.375, 0, 0, 0, 0.05),3,3)
+Msigma = matrix(c(1,0,0, 0,0.75, 0, 0, 0, 0.4),3,3)
 
 fts = rep(0,iR)
 r2s = rep(0,iR)
@@ -139,7 +139,7 @@ table_uncorr = cbind(table_100,table_1000,table_10000)
 iT = 10^2
 
 vmus = rep(0,3)
-Msigma = matrix(c(0.5,0.2,0, 0.2,0.375, 0,0, 0, 0.05),3,3)
+Msigma = matrix(c(1,0.4,0, 0.4,0.75, 0,0, 0, 0.4),3,3)
 
 fts = rep(0,iR)
 r2s = rep(0,iR)
@@ -242,7 +242,7 @@ table_2corr = cbind(table_100,table_1000,table_10000)
 iT = 10^2
 
 vmus = rep(0,3)
-Msigma = matrix(c(0.5,0.2,0.05, 0.2,0.375, -0.05,0.05, -0.05, 0.05),3,3)
+Msigma = matrix(c(1,0.4,0.6, 0.4,0.75, 0.3,0.6, 0.3, 0.4),3,3)
 
 fts = rep(0,iR)
 r2s = rep(0,iR)
